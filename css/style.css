@@ -1,0 +1,130 @@
+* {
+  font-family: arial;
+}
+
+body, html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  text-transform:uppercase;
+  margin:0px;
+  font-weight:bold;
+  font-size:24px;
+  display:block;
+  text-align:center;
+}
+
+h2 {
+  text-transform:capitalize;
+  margin:0px;
+  font-weight:200;
+  font-size:16px;
+  display:block;
+  text-align:center;
+}
+
+h2.name {
+  margin: 0 auto;
+  background-color: gray;
+  border-radius: 20px;
+  width: 40%;
+}
+
+h3 {
+  margin:0px;    
+  font-weight:200;
+  font-size:12px;
+  display:block;
+  text-align:center;
+}
+
+h4 {
+  margin:0px;  
+  font-size:15px;    
+  color:#888888;
+}
+
+i {
+  color:#888888;
+}
+
+
+.mainBox {
+  background-color: green;
+  border-radius: 15px;
+  width: 30%;
+  height: 40%;
+  display:block;
+  position:relative;
+  margin:0 auto;
+}
+
+.mainBox:hover{
+    visibility:hidden;
+}
+
+.records:hover{
+    visibility:visible;
+}
+
+.records {
+  background-color: green;
+  border-radius: 15px;
+  width: 30%;
+  height: 40%;
+  display:block;
+  position:absolute;
+  margin:0 auto;
+  top:0;
+  left:0;
+}
+
+.stats {
+  width: 100%;
+  height:80%;
+  border-radius: 15px 15px 0px 0px;    
+  position: relative;
+  background-color: #ededed;  
+}
+
+.hrLine {
+    border-top:1px double black;
+    width: 50%;
+}
+
+.menu {
+  height:20%;
+  font-size:16px;
+  border-radius: 0px 0px 15px 15px;    
+  position: relative;
+  color:white;
+  background-color: #d4d4d4;
+  text-align:center;
+  margin: 0 auto;
+}
+
+.menuText {
+  height:67%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+span.statsText {
+  line-height:28px;
+  height:65%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+li {
+  padding: 20px;    
+  display: inline-flex;
+  float: left;
+  list-style-type: none;
+}
